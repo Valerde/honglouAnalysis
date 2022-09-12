@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import jieba
 
-txt = open("红楼梦.txt", "r", encoding='utf-8').read()
+txt = open("神雕侠侣.txt", "r", encoding='utf-8').read()
 words = jieba.lcut(txt)  # 使用精确模式对文本进行分词
 counts = {}  # 通过键值对的形式存储词语及其出现的次数
 
